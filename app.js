@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use('/add-product', (req, res, next) => {
+app.post('/add-product', (req, res, next) => {
   console.log('In the second middleware!');
   res.send(
     '<form action="/product" method="post"><input type="text" name="title"><button type="submit">Add Product</button></form>'
