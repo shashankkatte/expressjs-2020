@@ -1,7 +1,7 @@
 {
-  "name": "expressjs-2020",
+  "name": "Shop Express",
   "version": "1.0.0",
-  "description": "Understanding express.js",
+  "description": "An Online store built on Node and express.js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
