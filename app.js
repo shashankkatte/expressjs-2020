@@ -12,8 +12,9 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    console.log('In the second middleware!');
-  });
+  console.log('In the second middleware!');
+  res.send('<h1>Hello from Express!</h1>');
+});
 
 // You can pass app as request handler
 const server = http.createServer(app);
