@@ -1,8 +1,10 @@
-//  This is refactored code, refer to previous versions on git for detailed code comments!
+//  Lets look at how easy it is to start a node server with express.js 
 const http = require('http');
-const routes = require('./routes');
 
-const server = http.createServer(routes.handler);
-console.log (routes.SomeText);
+const express = require('express');
+
+const app = express();
+
+const server = http.createServer(app);
 
 server.listen(3000);
