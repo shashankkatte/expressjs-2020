@@ -1,5 +1,5 @@
 {
-  "name": "Shop Express",
+  "name": "shop-express",
   "version": "1.0.0",
   "description": "An Online store built on Node and express.js",
   "main": "app.js",
@@ -16,5 +16,13 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankkatte/shop-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shashankkatte/shop-express/issues"
+  },
+  "homepage": "https://github.com/shashankkatte/shop-express#readme"
 }
