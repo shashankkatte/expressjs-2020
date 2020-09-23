@@ -8,7 +8,7 @@ const app = express();
 // middleware
 app.use((req, res, next) => {
   console.log('In the first middleware!');
-  next();
+  next(); // Allows the request to continue to next middleware
 });
 
 app.use((req, res, next) => {
